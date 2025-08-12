@@ -53,8 +53,17 @@ PATTERNS = {
     r'what is your name': [
         'I am SimpleChatbot.', 'You can call me SimpleChatbot.'
     ],
+    r'who created you': [
+        'I was created by Hemanth Kumar Bonula. GitHub: https://github.com/hemantharjun65'
+    ],
+    r'github': [
+        'Here is my GitHub link: https://github.com/hemantharjun65'
+    ],
+    r'linkedin': [
+        'Here is my LinkedIn profile: https://linkedin.com/in/hemanth-kumar-bonula-915563293'
+    ],
     r'help': [
-        "You can say things like: hello, how are you, what is your name, bye"
+        "You can say things like: hello, how are you, what is your name, github, linkedin, bye"
     ],
     r'bye|exit|quit': [
         'Goodbye!', 'See you later!', 'Bye!'
@@ -104,5 +113,5 @@ SimpleChatbot lets users interact via the terminal. It matches user input agains
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-github-username>/SimpleChatbot.git
+   git clone https://github.com/hemantharjun65/SimpleChatbot.git
    cd SimpleChatbot
